@@ -27,3 +27,66 @@ plt.xlabel('Feature 1')
 plt.ylabel('Feature 2')
 plt.grid(True)
 plt.show()
+
+
+Practical 4: Perform the data clustering algorithm using any Clustering algorithm
+Theory
+Clustering is an unsupervised machine learning technique used to group similar data points together based on specific characteristics or patterns without having predefined labels. Unlike classification, clustering doesn’t require labeled data. Instead, it tries to find hidden structures within the data.
+
+The main goal of clustering is to divide the data into groups (clusters) such that data points in the same cluster are more similar to each other than to those in other clusters.
+
+Types of Clustering Algorithms:
+K-Means Clustering
+
+Partitions the data into K clusters.
+
+Each data point is assigned to the nearest cluster center (centroid).
+
+Centroids are updated iteratively until convergence.
+
+Hierarchical Clustering
+
+Builds a tree (dendrogram) of clusters either by merging or dividing clusters.
+
+Doesn’t require the number of clusters to be specified in advance.
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+
+Groups together points that are closely packed.
+
+Can identify outliers and noise in the data.
+
+Mean Shift Clustering
+
+Shifts data points towards the mode (densest part) of the data.
+
+Does not need the number of clusters in advance.
+
+Steps in Clustering:
+Data Collection – Gather raw data for analysis.
+
+Data Preprocessing – Normalize or scale the data, handle missing values.
+
+Algorithm Selection – Choose a suitable clustering algorithm based on data structure.
+
+Apply Clustering – Run the algorithm to group data into clusters.
+
+Evaluation – Use metrics like Silhouette Score or visual methods to evaluate cluster quality.
+
+Visualization – Represent the clusters using graphs or plots to interpret the results.
+
+Advantages of Clustering:
+Works well with unlabeled data.
+
+Helps to discover hidden patterns or groupings.
+
+Useful for exploratory data analysis.
+
+Applications of Clustering:
+Customer segmentation in marketing.
+
+Grouping genes with similar expression patterns in bioinformatics.
+
+Document or news article grouping.
+
+Image compression and pattern recognition.
