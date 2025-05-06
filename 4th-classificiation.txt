@@ -34,3 +34,54 @@ print("Testing Accuracy:", accuracy_score(y_test, y_pred_test))
 # Additional evaluation metrics
 print("Classification Report on Test Data:")
 print(classification_report(y_test, y_pred_test))
+
+
+
+Practical 3: Perform the data classification algorithm using any Classification algorithm
+Theory
+Classification is a supervised machine learning technique used to predict the categorical class labels of new instances, based on past observations. It involves training a model on a labeled dataset, which means that each training example is paired with an output label. Once trained, the model can classify new data into one of the predefined classes.
+
+The purpose of classification is to identify which category an object belongs to based on a training dataset containing observations whose category membership is known. Common examples include spam detection in emails, disease prediction in healthcare, and sentiment analysis in text.
+
+Types of Classification Algorithms:
+Decision Tree – A tree-like model used for decision-making. It splits the dataset into branches to arrive at a decision.
+
+K-Nearest Neighbors (KNN) – Classifies a data point based on how its neighbors are classified.
+
+Support Vector Machine (SVM) – Finds the optimal boundary that best separates classes in the feature space.
+
+Naive Bayes – Based on Bayes’ Theorem and assumes feature independence.
+
+Logistic Regression – A statistical model that uses a logistic function to model binary dependent variables.
+
+Steps in Classification:
+Data Collection – Gather labeled data.
+
+Data Preprocessing – Clean the data, handle missing values, normalize/standardize if required.
+
+Splitting the Dataset – Usually into training and testing sets (e.g., 80/20 split).
+
+Model Selection – Choose a classification algorithm.
+
+Model Training – Use the training data to teach the model.
+
+Model Evaluation – Assess the accuracy, precision, recall, and F1-score using test data.
+
+Prediction – Apply the model to unseen data for classification.
+
+Advantages of Classification Algorithms:
+Easy to interpret (especially decision trees).
+
+High performance with enough labeled data.
+
+Applicable to various domains like finance, healthcare, and marketing.
+
+Applications of Classification:
+Email spam detection
+
+Credit card fraud detection
+
+Medical diagnosis
+
+Image and speech recognition
+
