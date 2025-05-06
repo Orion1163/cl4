@@ -1,0 +1,19 @@
+1. in cmd:
+ python.
+
+
+2.then type this lin-by-line
+
+from pymongo import MongoClient
+client = MongoClient("mongodb://localhost:27017/")
+db = client["school"]
+students = db["students"]
+
+3.Inserting value
+students.insert_one({"name":"Pranav", "marks":"90"})
+
+4. Updating
+students.update_one({"name":"Pranav"},{"$set":{"name":"Popo"}})
+
+5.Deleting
+students.delete_one({"name":"Popo"})
